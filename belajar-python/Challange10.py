@@ -1,9 +1,10 @@
+percobaan = 5
 kode_benar = "0042"
-Masukan_Kode = input("masukan kode:")
+Masukan_Kode = input("Masukan kode:")
 
 if kode_benar == Masukan_Kode:
-    print("ACCESS GRANTED")
+    print(f"ACCESS GRANTED, percobaan tersedia: {percobaan}")
 elif Masukan_Kode == "0000":
-    print("DEFAULT CODE DETECTED")
+    print(f"DEFAULT CODE DETECTED, percobaan tersedia: {percobaan}")
 else:
-    print("ACCEES DENEID")
+    print(f"ACCESS DENIED, percobaan tersedia: {percobaan}")
